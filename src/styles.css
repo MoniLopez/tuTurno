@@ -8,7 +8,10 @@ body{
     background-color: #000000;
 }
 
-.letras{
+.letrasEnlaces{
     font-family: 'Jomolhari';
-    color: #ffffff;
+}
+
+.letras{
+    font-family: 'Century Gothic';
 }
