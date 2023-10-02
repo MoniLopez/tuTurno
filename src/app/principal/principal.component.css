@@ -1,3 +1,9 @@
+body{
+    background: #DBD4B4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #283048, #859398, #DBD4B4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #283048, #859398, #DBD4B4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .carouselContine {
     max-width: 1700px; /* Define el ancho máximo de los slides */
     max-height: 400px; /* Define la altura máxima de los slides */
