@@ -1,13 +1,14 @@
+<body>
 <div class="carouselContine">
   <ngb-carousel>
     <!--<ng-template ngbSlide>
-      <img src="assets/tarjetaErik.svg" alt="cumpleaños">
+      <img src="assets/tarjetaMisael.svg" alt="cumpleaños">
     </ng-template>-->
     <ng-template ngbSlide>
       <img src="assets/turnoAgua.svg" alt="turnoAgua">
       <div class="container">
         <div class="carousel-caption">
-          <h1 style="font-size: 70px;" class="mb-5 letras">Miguel Ángel Ramírez</h1>
+          <h1 style="font-size: 70px;" class="mb-5 letras">Pablo Enrique Crisanto</h1>
           <br>
         </div>
       </div>
@@ -16,8 +17,9 @@
       <img src="assets/turnoLimpieza.svg" alt="turnoLimpieza">
       <div class="container">
         <div class="carousel-caption">
-          <h1 style="font-size: 60px; color:#1C6383;" class="letras">Rocío Ordoñez</h1>
-          <h1 style="font-size: 60px; color:#1C6383;" class="mb-5 letras">María del Socorro</h1>
+          <label style="font-size: 50px; color:#1C6383;" class="letras">Natali Ramírez</label><br>
+          <label style="font-size: 50px; color:#1C6383;" class="letras">Anahí Pérez Sarabia</label><br>
+          <label style="font-size: 50px; color:#1C6383;" class="letras">Elisa Milán Cantero</label><br>
         </div>
       </div>
     </ng-template>
@@ -31,23 +33,29 @@
 <div class="container marketing mt-3">
   <div class="row">
     <div class="col-lg-4" style="text-align: center;">
-      <img src="assets/garrafon.svg" alt="garrafon" class="bd-placeholder-img rounded-circle" width="150" height="150">
+      <a [routerLink]="['/rolAgua']">
+        <img src="assets/garrafon.svg" alt="garrafon" class="bd-placeholder-img rounded-circle" width="150" height="150">
+      </a>
       <h2 class="fw-normal letras">Rol Garrafon</h2>
       <p class="letras" style="font-size: 18px;">Consulta el orden y a quién le corresponde traer el agua.</p>
     </div>
     <div class="col-lg-4" style="text-align: center;">
-      <img src="assets/limpieza.svg" alt="limpieza" class="bd-placeholder-img rounded-circle" width="150" height="150">
+      <a [routerLink]="['/rolLimpieza']">
+        <img src="assets/limpieza.svg" alt="limpieza" class="bd-placeholder-img rounded-circle" width="150" height="150">
+      </a>
       <h2 class="fw-normal letras">Rol Limpieza</h2>
       <p class="letras" style="font-size: 18px;">Revisa el orden y a quién le corresponde limpiar el refrigerador y microondas.</p>
     </div>
     <div class="col-lg-4" style="text-align: center;">
-      <img src="assets/cumple.svg" alt="listaCumple" class="bd-placeholder-img rounded-circle center" width="150" height="150">
+      <a [routerLink]="['/ordenCumple']">
+        <img src="assets/cumple.svg" alt="listaCumple" class="bd-placeholder-img rounded-circle center" width="150" height="150">
+      </a>
       <h2 class="fw-normal letras">Cumpleaños de todos</h2>
       <p class="letras" style="font-size: 18px;">¿Ya le compraste regalo a  tu crush? Que no se te pase la fecha.</p>
     </div>
   </div>
 </div>
-
+</body>
 <footer class="piecera">
   <div class="container marketing">
     <div class="row align-items-center">
